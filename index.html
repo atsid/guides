@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <section class="introduction">
+        <p>The development teams at ATS love creating great software, and we'd like to share how we do it and why.</p>
+    </section>
+
+    <section>
+        {% for page in site.pages %}
+            {% if page.title %}
+                <section class="guide">
+                    <h2><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
+                    <p>{{ page.description }}</p>
+                    <a class="page-link-small" href="{{ page.url | prepend: site.baseurl }}">Learn more.</a>
+                </section>
+            {% endif %}
+        {% endfor %}
+    </section>
+</div>
