@@ -1,6 +1,6 @@
 branches:
   only:
-  - 2-travis-deployment
+  - master
 language: node_js
 node_js:
 - '0.12'
