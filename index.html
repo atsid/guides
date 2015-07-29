@@ -1,21 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>ATS Engineering</title>
-</head>
-<body>
+---
+layout: default
+---
 
-    <h1>ATS Engineering</h1>
+<div class="home">
 
     <section class="introduction">
         <p>The development teams at ATS love creating great software, and we'd like to share how we do it and why.</p>
     </section>
 
-    <section class="guide">
-        <h1>GitHub</h1>
-        <p>We use <a href="https://git-scm.com/">git</a>, hosted at <a href="https://github.com/atsid">GitHub</a>, for most source control.</p>
+    <section>
+        {% for page in site.pages %}
+            {% if page.title %}
+                <section class="guide">
+                    <h2><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
+                    <p>{{ page.description }}</p>
+                    <a class="page-link-small" href="{{ page.url | prepend: site.baseurl }}">Learn more.</a>
+                </section>
+            {% endif %}
+        {% endfor %}
     </section>
-
-</body>
-</html>
+</div>

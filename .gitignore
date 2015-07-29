@@ -3,3 +3,4 @@ node_modules
 dist
 .salt
 _site
+.sass-cache

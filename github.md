@@ -1,3 +1,12 @@
+---
+layout: page
+title: GitHub
+description: We use git, hosted at GitHub, for most source control.
+permalink: /github/
+---
+
+Most source control at ATS uses [GitHub](https://github.com/atsid).
+
 We like to use the [GitHub Flow](https://guides.github.com/introduction/flow/),
 because it helps elevate visibility and ownership of development across the team.
 
@@ -5,10 +14,12 @@ because it helps elevate visibility and ownership of development across the team
 
 When a new feature or bug needs to be worked on, we:
 
-1. Create a new **branch**, named to include a reference to the task management system ID and a useful description: {task-id}-{short-description}.
+1. Create a new **branch**, named to include a reference to the task management system ID and a useful description: `{task-id}-{short-description}`.
+
     > 1234-fixing-database-connection
 
-2. All **commits** toward the feature/bug are prefixed with the task id: \#{task-id} - {description of commit}.
+2. All **commits** toward the feature/bug are prefixed with the task id: `#{task-id} - {description of commit}`.
+    
     > \#1234 - Fix connection pool settings
 
 3. When feature or bug is complete, submit a **pull request** back to master.
