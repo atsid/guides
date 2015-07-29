@@ -1,6 +1,6 @@
 [![Dev Dependency Status](https://david-dm.org/atsid/engineering/dev-status.svg)](https://david-dm.org/atsid/engineering)
 
-# Engineering
+# engineering
 Docs and discussion about ATS engineering culture and practices
 
 ## Getting Started
