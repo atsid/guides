@@ -4,3 +4,4 @@ dist
 .salt
 _site
 .sass-cache
+.publish

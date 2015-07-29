@@ -5,7 +5,7 @@ var ghPages = require('gulp-gh-pages');
 
 var config = {
     src: {
-        all: './'
+        all: ['**/*', '!node_modules/**/*', '!_site/**/*']
     }
 };
 
