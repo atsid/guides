@@ -29,6 +29,7 @@ Vagrant.configure(2) do |config|
 
   # Provision with salt
   config.vm.provision :salt do |salt|
+    salt.bootstrap_options = "-P"
     salt.minion_config = "salt/minion"
     salt.run_highstate = true
     salt.verbose = true
