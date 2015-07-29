@@ -26,6 +26,8 @@ Once you've made all the edits you'd like, push your branch and submit a pull re
 and discussed by the team, you should get a :shipit: or two indicating that it's ready to go. At that point, merge the branch into `master`,
 and the Travis build will automatically re-deploy the site to gh-pages.
 
+*The workflow of branching, submitting a PR, then merging is covered more thoroughly in our [GitHub guide](https://github.com/atsid/engineering/blob/master/github.md).*
+
 ### Development
 
 We use Vagrant to streamline the installation of Jekyll so you can run the site locally to make sure any changes will look ok when deployed.
