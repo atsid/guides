@@ -9,15 +9,22 @@ We want everyone at ATS to contribute to the discussion about how we build softw
 
 **Please branch the repo, make changes, and submit a pull request to get your ideas reviewed by other developers.**
 
+### Development
+
 This set of guides is a [Jekyll](http://jekyllrb.com/) site, so it is both easily readable and editable by developers using [Markdown](http://daringfireball.net/projects/markdown/),
 and is deployable straight to GitHub Pages.
 
-Generally speaking, the content files are intended to be straightforward Markdown, so you can edit them to update content and Jekyll will do the rest.
-If you want to make changes that affect the structure, organization, templating, etc., you should install Jekyll so you can run locally and see how the changes will look on GitHub Pages.
+We use Vagrant to streamline the installation of Jekyll, and gulp to do the deployment.
 
-The app uses [gulp](http://gulpjs.com/) to do some builds and push deployments to `gh-pages`. To get started:
+1. `vagrant up`
+1. `vagrant ssh`
+1. Start jekyll: `jekyll serve`
+1. View the site: `http://localhost:4000/engineering`
 
-1. Install [Node.js](https://nodejs.org/) if you don't already have it
+### Deployment
+
+Deployment uses a gulp task to push to `gh-pages`.
+
 1. Get dev dependencies: `npm install`
+1. `gulp deploy`
 
-To deploy, use `gulp deploy`.
