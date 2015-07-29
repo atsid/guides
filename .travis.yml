@@ -3,13 +3,16 @@ branches:
   - 2-travis-deployment
 language: node_js
 node_js:
-  - "0.12"
+- '0.12'
 install:
-  - npm install -g gulp
-  - npm install
+- npm install -g gulp
+- npm install
 before_script:
-  - git remote set-url origin "https://${GH_TOKEN}@github.com/atsid/engineering.git"
-  - git config --global user.email "github@atsid.com"
-  - git config --global user.name "Travis-CI"
+- git remote set-url origin "https://${GH_TOKEN}@github.com/atsid/engineering.git"
+- git config --global user.email "github@atsid.com"
+- git config --global user.name "Travis-CI"
 script:
-  - gulp deploy
+- gulp deploy
+env:
+  global:
+  - secure: C3ylfi8tlTT1tX8AmMebzellkNPWmDxPi+3cL7AT/pnK775zrHhvoAMOfzHlf4pGuHCke0SQGUqVNIAUsNqMFCSZwixojTxXtrCAIPmmxbYcIo9HwCOiIFil0K4DUJyKnlKS/arWipktMjF2Y8Z3onNuWhEc9wWuvJWcYjYGP1LSIVb4NvjAtRdDEB9m/KFmSwR4GlJxclCQj/CvdZqGwSPBjlLLlN6aXBrKeLGbsUGbEqimOlmh/r99hZSFbexBB2frJW3S96J5USVwXf18jw9afuhMFWNzTzP3INwmMoNEeeKusSMJqem2eROSZkaHJfS+pi02pPTPRGpcxYj3nHlf5VCpbyY4Kor94qrTAIzZxvK1s1h1gj5UY/Jtu2bw27kR5SYdfxUdDhrj50j4GaJ5oi4nRs/oWr61HgoUtMy7pem8HG72QExiCYoPTEAF8VtYpgRll167u4X1XDesSCHqDcyee1Lpj2TkwoVmCq0NVg9X2RLf2UQ9ziJ2OUOL9y5NTbfNY48jHW9bIcc04vZwKZumXW25nYq+z1Xd//Y/Q9Xo+lduDhcSJXETBYRjTRRCc4LzaXHmtttWd0fo44jMDIt3Qt4jhbjgFGSfubGk4WfjXJWLyWdPnpbY/jk3PwdxApAq3pn4d0d/R2lI5TeINSiCBRsc0QiaIIUKBzc=
