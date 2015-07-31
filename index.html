@@ -8,15 +8,29 @@ layout: default
         <p>The development teams at ATS love creating great software, and we'd like to share how we do it and why.</p>
     </section>
 
-    <section>
+    <section id="guides">
+        <h1 class="page-heading">Developer Guides</h1>
         {% for page in site.pages %}
             {% if page.title %}
                 <section class="guide">
                     <h2><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
                     <p>{{ page.description }}</p>
-                    <a class="page-link-small" href="{{ page.url | prepend: site.baseurl }}">Learn more.</a>
+                    <a class="page-link-small" href="{{ page.url | prepend: site.baseurl }}">Learn more</a>
                 </section>
             {% endif %}
         {% endfor %}
     </section>
+    
+    <section id="blog">
+        <h1 class="page-heading">Engineering Blog</h1>
+        {% for post in site.posts %}
+        <section class="post">
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+            <p>{{ post.description }}</p>
+            <a class="page-link-small" href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
+        </section>
+        {% endfor %}
+    </section>
+    
 </div>
