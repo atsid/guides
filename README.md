@@ -8,7 +8,7 @@ Docs and discussion about ATS engineering culture and practices
 
 We want everyone at ATS to contribute to the discussion about how we build software!
 
-**Please branch the repo, make changes, and submit a pull request to get your ideas reviewed by other developers.**
+**Please fork the repo or create a branch, make changes, and submit a pull request to get your ideas reviewed by other developers.**
 
 This set of guides is a [Jekyll](http://jekyllrb.com/) site, so it is both easily readable and editable by developers using [Markdown](http://daringfireball.net/projects/markdown/),
 and is deployable straight to GitHub Pages.
