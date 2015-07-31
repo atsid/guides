@@ -12,4 +12,7 @@ layout: default
     {{ content }}
   </article>
 
+  {{ if page.platform }}
+  <a href="{{ page.original }}">Read the whole post at {{ page.platform }}</a>
+  {{ endif }}
 </div>
