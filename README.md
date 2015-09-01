@@ -21,8 +21,7 @@ and the Travis build will automatically re-deploy the site to gh-pages.
 
 ### Development Guides
 
-`*.md` files in the root are the guide pages. The home page automatically pulls in all of these pages
-and displays them in the list.
+The 'guides' are individual pages that describe some aspect of how we deliver software. `*.md` files in the root are the guide pages. The home page automatically pulls in all of these pages and displays them in the list.
 
 If you want to edit an existing page, simply work on it in your favorite editor.
 If you want to add a new guide page, add a new `*.md` file to the project root, and then insert the [yaml header material](http://jekyllrb.com/docs/frontmatter/).
