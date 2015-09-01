@@ -8,7 +8,7 @@ Docs and discussion about ATS software delivery culture and practices.
 
 We want everyone at ATS to contribute to the discussion about how we build software!
 
-**Please fork the repo or create a branch, make changes, and submit a pull request to get your ideas reviewed by other developers.**
+>**Please fork the repo or create a branch, make changes, and submit a pull request to get your ideas reviewed by other developers.**
 
 This is a [Jekyll](http://jekyllrb.com/) site, so it is both readable and editable using [Markdown](http://daringfireball.net/projects/markdown/),
 and is deployable straight to GitHub Pages.
@@ -21,7 +21,7 @@ and the Travis build will automatically re-deploy the site to gh-pages.
 
 ### Development Guides
 
-The 'guides' are individual pages that describe some aspect of how we deliver software. `*.md` files in the root are the guide pages. The home page automatically pulls in all of these pages and displays them in the list.
+The 'guides' are individual pages that describe some aspect of how we deliver software and services to our customers. `*.md` files in the root are the guide pages. The home page automatically pulls in all of these pages and displays them in the list.
 
 If you want to edit an existing page, simply work on it in your favorite editor.
 If you want to add a new guide page, add a new `*.md` file to the project root, and then insert the [yaml header material](http://jekyllrb.com/docs/frontmatter/).
@@ -34,7 +34,7 @@ If you'd like to author a post for the tech blog, add a new file in the `_posts`
 You have two publication options for blog posts:
 
 1. You can create the post entirely within the post markdown file and submit it as is.
-1. You can publish the post on your own external blog platform and then create a 'partial' post here that links to the full version.
+1. You can publish the post on your own external blog platform and then create a summary post here that links to the full version.
  
 It's really up to you how you want it posted, we just wanted to leave the option of linking to personal blogs so the content stays a part of your personal online content. As for subject matter, please limit the posts to content that is relevant to ATS and appropriate for a public site with our name on it. That doesn't mean it needs to be strictly technical though - posts on design, culture, learning, strategy, etc. are all encouraged!
 
