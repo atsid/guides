@@ -6,24 +6,31 @@
 
 
 // Our variables
-$base-font-family:    Helvetica, Arial, sans-serif;
+$base-font-family:    "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $base-font-size:      16px;
 $small-font-size:     $base-font-size * 0.875;
 $base-line-height:    1.5;
 
 $spacing-unit:        30px;
 
+//light versions are for opposite contrast (e.g., black background)
 $text-color:          #111;
-$background-color:    #fdfdfd;
-$brand-color:         #2a7ae2;
+$text-color-light:    white;
+$brand-color:         #B52223;
+$brand-color-light:   white;
 
 $grey-color:          #828282;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     darken($grey-color, 25%);
+$grey-color-darkest:  darken($grey-color, 50%);
 $grey-color-lightest: #ddd;
+$grey-color-whiter:   #fcfcfc;
+
+$background-color:    black;
+$background-color-light:    white;
 
 // Width of the content area
-$content-width:       1024px;
+$content-width:       1440px;
 
 $on-palm:             600px;
 $on-laptop:           1024px;

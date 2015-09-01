@@ -21,6 +21,10 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+
+    background-image: url('../assets/images/bg-library.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
@@ -35,7 +39,10 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
+// Fine tune headings
+h1, h2 {
+    letter-spacing: -0.032em;
+}
 
 /**
  * Images
@@ -93,7 +100,7 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($brand-color, 10%);
     }
 
     &:hover {
@@ -171,7 +178,6 @@ pre {
 }
 
 
-
 /**
  * Clearfix
  */
@@ -198,7 +204,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $grey-color-lightest;
         }
     }
 }
