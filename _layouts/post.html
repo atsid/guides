@@ -10,13 +10,9 @@ layout: default
 
   <article class="post-content">
     {{ content }}
-
-    {{ if page.platform }}
-    <div class="original">
-      <a href="{{ page.original }}">Read the whole post at {{ page.platform }}</a>
-    </div>
-    {{ endif }}
-
   </article>
 
+  {{ if page.platform }}
+  <a href="{{ page.original }}">Read the whole post at {{ page.platform }}</a>
+  {{ endif }}
 </div>
