@@ -129,7 +129,8 @@
 }
 
 .contact-list,
-.social-media-list {
+.social-media-list,
+.extra-list {
     list-style: none;
     margin-left: 0;
 }
@@ -319,4 +320,5 @@ section {
 .credit {
     font-size: .6em;
     color: $grey-color-light;
+    padding-top: 4px;
 }
