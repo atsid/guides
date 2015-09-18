@@ -2,35 +2,45 @@
 layout: default
 ---
 
+<section class="introduction">
+    <p>We love creating great software, and we'd like to share how we do it and why.</p>
+</section>
+
 <div class="home">
 
-    <section class="introduction">
-        <p>The development teams at ATS love creating great software, and we'd like to share how we do it and why.</p>
-    </section>
-
     <section id="guides">
-        <h1 class="page-heading">Developer Guides</h1>
+        <div class="section-introduction">
+            <h1 class="page-heading">Developer Guides</h1>
+            <h2>These guides are a community-developed set of practice documents that describe how we operate as a team.</h2>
+        </div>
+        <div class="section-content">
         {% for page in site.pages %}
             {% if page.title %}
-                <section class="guide">
+                <section class="card">
                     <h2><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
                     <p>{{ page.description }}</p>
                     <a class="page-link-small" href="{{ page.url | prepend: site.baseurl }}">Learn more</a>
                 </section>
             {% endif %}
         {% endfor %}
+        </div>
     </section>
-    
+
     <section id="blog">
-        <h1 class="page-heading">Engineering Blog</h1>
+        <div class="section-introduction">
+            <h1 class="page-heading">Tech Blog</h1>
+            <h2>Public tech blog from the developers, designers, and leadership at ATS.</h2>
+        </div>
+        <div class="section-content">
         {% for post in site.posts %}
-        <section class="post">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-            <p>{{ post.description }}</p>
-            <a class="page-link-small" href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
-        </section>
+            <section class="card">
+                <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <p>{{ post.description }}</p>
+                <a class="page-link-small" href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>
+            </section>
         {% endfor %}
+        </div>
     </section>
-    
+
 </div>
