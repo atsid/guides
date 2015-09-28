@@ -1,0 +1,48 @@
+// ------------------------------------------------------------------------------------------
+// This file contains all styles related to the generic page layouts of the site/application.
+// ------------------------------------------------------------------------------------------
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: 0;
+}
+
+section {
+    margin-top: $spacing-unit;
+}
+
+.section-introduction {
+    margin: 0;
+    padding: 1.5em 0;
+    text-align: center;
+
+    h4 {
+        font-weight: 800;
+    }
+
+}
+
+.section-content {
+    padding: 40px;
+}
+
+.post-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+
+.post-link {
+    display: block;
+    font-size: 24px;
+}

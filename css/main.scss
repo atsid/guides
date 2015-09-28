@@ -1,6 +1,7 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -19,6 +20,7 @@
 @import
   'base/base',
   'base/fonts',
+  'base/grid',
   'base/typography',
   'base/helpers',
   'base/syntax-highlighting';
@@ -26,7 +28,9 @@
 // 4. Layout-related sections
 @import
   'layout/header',
-  'layout/footer';
+  'layout/footer',
+  'layout/pages',
+  'layout/posts';
 
 // 5. Components
 @import

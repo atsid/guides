@@ -2,36 +2,6 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
-
-/// Regular font family
-/// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
-
-/// Code (monospace) font family
-/// @type List
-$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
-
-/// Copy text color
-/// @type Color
-$text-color: #222 !default;
-
-/// Main brand color
-/// @type Color
-$brand-color: #E50050 !default;
-
-/// Light grey
-/// @type Color
-$light-grey: #EDEDED !default;
-
-/// Medium grey
-/// @type Color
-$mid-grey: #999 !default;
-
-/// Dark grey
-/// @type Color
-$dark-grey: #444 !default;
-
-
 /// Container's maximum width
 /// Below that is 100%
 /// @type Length
@@ -56,16 +26,13 @@ $breakpoints: (
 $base-url: '/assets/' !default;
 
 
-// BINGLES TO DO:
-// Merge variables and purge
-
-// Our variables
+// ATS variables
 $base-font-family:    "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $base-font-size:      16px;
 $small-font-size:     $base-font-size * 0.875;
 $base-line-height:    1.5;
 
-$spacing-unit:        30px;
+$spacing-unit:        1.6em;
 
 //light versions are for opposite contrast (e.g., black background)
 $text-color:          #111;
@@ -80,8 +47,26 @@ $grey-color-darkest:  darken($grey-color, 50%);
 $grey-color-lightest: #ddd;
 $grey-color-whiter:   #fcfcfc;
 
-$background-color:    black;
+$background-color:    white;
 $background-color-light:    white;
+
+// colors
+$blue: #0045AC;
+$teal: #106567;
+$red: #F90420;
+$dark-gray: #333;
+$medium-gray: #666;
+$light-gray: #ddd;
+
+// font colors
+$base-background-color: #fff;
+$base-header-font-color: $dark-gray;
+$base-font-color: #4a4a4a; 
+$action-color: $blue;
+
+// border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
 
 // Width of the content area
 $content-width:       1440px;

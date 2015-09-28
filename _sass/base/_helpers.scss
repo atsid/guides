@@ -5,10 +5,58 @@
 /**
  * Clear inner floats
  */
-.clearfix::after {
+.clearfix::after, %clearfix::after {
   clear: both;
   content: '';
   display: table;
+}
+
+/**
+ * Center an element both vertically and horizontally
+ */
+ .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+/**
+ * Horizontally center elements within a block. Useful for when text align won't cut it.
+ */
+ .center-horizontally {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+/**
+ * Vertically center elements within a block
+ */
+ .center-vertically {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/**
+ * Horizontally center elements within a block. Useful for when text align won't cut it.
+ */
+ .center-horizontally {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 /**
@@ -25,6 +73,26 @@
   padding-right: 20px; /* 3 */
   width: 100%; /* 1 */
  }
+
+ /**
+ * Wrapper
+ */
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
 
 /**
  * Hide text while making it readable for screen readers
