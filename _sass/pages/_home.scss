@@ -1,3 +1,45 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+// Intro
+.introduction {
+    // $bg-image: '../assets/images/bg-pattern.png';
+    // @include background(url($bg-image) no-repeat center center scroll);    
+    background-color: $teal;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 300;
+    margin: 0;
+    padding: 6em 3em;
+
+    p {
+        margin: 0;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+}
+
+// Dev Guide
+.card {
+    border-radius: 0.2em;
+    border: $base-border; 
+    min-height: 15em;
+    padding: 2em 1em;
+}
+
+// Tech Blog
+.blog {
+    background: lighten($light-gray,5%);
+    margin-top: 5em;
+
+    // Temporary until grid & layout classes are completed
+    > .wrapper {
+        margin: 0 15% 5em;
+    }
+}
+

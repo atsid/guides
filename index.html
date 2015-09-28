@@ -1,22 +1,17 @@
 ---
-layout: default
+layout: home
 ---
 
-<section class="introduction">
-    <p>We love creating great software, and we'd like to share how we do it and why.</p>
-</section>
-
 <div class="home">
-
-    <section id="guides">
+    <section id="guides" class="wrapper row">
         <div class="section-introduction">
-            <h1 class="page-heading">Developer Guides</h1>
-            <h2>These guides are a community-developed set of practice documents that describe how we operate as a team.</h2>
+            <h4>Developer Guides</h4>
+            <p>These guides are a community-developed set of practice documents that describe how we operate as a team.</p>
         </div>
-        <div class="section-content">
+        <div>
         {% for page in site.pages %}
             {% if page.title %}
-                <section class="card">
+                <section class="column column-4 card">
                     <h2><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
                     <p>{{ page.description }}</p>
                     <a class="page-link-small" href="{{ page.url | prepend: site.baseurl }}">Learn more</a>
@@ -26,14 +21,14 @@ layout: default
         </div>
     </section>
 
-    <section id="blog">
+    <section id="blog" class="row blog">
         <div class="section-introduction">
-            <h1 class="page-heading">Tech Blog</h1>
-            <h2>Public tech blog from the developers, designers, and leadership at ATS.</h2>
+            <h4>Tech Blog</h4>
+            <p>Public tech blog from the developers, designers, and leadership at ATS.</p>
         </div>
-        <div class="section-content">
+        <div class="wrapper">
         {% for post in site.posts %}
-            <section class="card">
+            <section>
                 <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <p>{{ post.description }}</p>
