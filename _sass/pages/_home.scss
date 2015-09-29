@@ -4,27 +4,66 @@
 
 // Intro
 .introduction {
-    // $bg-image: '../assets/images/bg-pattern.png';
-    // @include background(url($bg-image) no-repeat center center scroll);    
-    background-color: $teal;
-    color: white;
-    font-size: 1.3em;
-    font-weight: 300;
+    $bg-image: '../assets/images/bg-pattern.png';
+    @include background(url($bg-image) repeat center center scroll);    
+
     margin: 0;
-    padding: 6em 3em;
+    
+    section {
+        margin: 0 auto;
+        max-width: 78em;
+    }
 
     p {
+        color: white;
+        font-size: $base-font-size + 15;
+        font-weight: 300;
         margin: 0;
-        text-align: center;
-        vertical-align: middle;
+        padding: 4.5em 1em;
+        text-align: left;
     }
 
     img {
-        vertical-align: middle;
+        max-width: 30em;
+        top: 2.2em
+    }     
+
+    @include respond-to('large') {
+        p {
+            @include transition(all .3s ease);
+            font-size: $base-font-size + 8;
+            padding-right: 2em;
+        }
+        img {
+            top: 2em;
+            max-width: 24em;
+        }
+    }
+
+    @include respond-to('medium') {
+        section {
+            text-align: center;
+            max-width: 30em;
+        }
+
+        p {
+            font-size: $base-font-size + 5;
+            padding: 1.6em 0 0.5em;
+            text-align: center;
+        }
+
+        img {
+            top: 1.3em;
+            max-width: 18em;
+        }
     }
 }
 
-// Dev Guide
+
+// Dev Guides
+.guides {
+    margin-top: 4em;
+}
 .card {
     border-radius: 0.2em;
     border: $base-border; 
@@ -34,12 +73,23 @@
 
 // Tech Blog
 .blog {
-    background: lighten($light-gray,5%);
+    background: lighten($light-gray,8%);
+    border-top: $base-border;
     margin-top: 5em;
 
-    // Temporary until grid & layout classes are completed
-    > .wrapper {
-        margin: 0 15% 5em;
+    .posts-list {
+        max-width: 50em;
+        margin: 0 auto;
+    }
+
+    section {
+        border-bottom: $base-border;
+        margin-top: 2em;
+        padding-bottom: 2.5em;
+
+        &:first-of-type {
+            margin-top: 0;
+        }
     }
 }
 

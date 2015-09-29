@@ -75,7 +75,7 @@
     margin-left: 0;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: $breakpoint-medium) {
     .column-1, 
     .column-2, 
     .column-3, 

@@ -13,11 +13,13 @@ $max-width: 1200px !default;
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels
 /// @see {mixin} respond-to
 $breakpoints: (
-  'small': (min-width: 320px),
-  'medium': (min-width: 768px),
-  'large': (min-width: 1024px),
+  'small': (max-width: 320px),
+  'medium': (max-width: 878px),
+  'large': (max-width: 1125px),
 ) !default;
 
+// For grid purposes
+$breakpoint-medium: 878px;
 
 /// Relative or absolute URL where all assets are served from
 /// @type String

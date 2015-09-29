@@ -2,17 +2,17 @@
 layout: home
 ---
 
-<div class="home">
-    <section id="guides" class="wrapper row">
+<div class="guides">
+    <section class="wrapper row">
         <div class="section-introduction">
-            <h4>Developer Guides</h4>
+            <h1>Developer Guides</h1>
             <p>These guides are a community-developed set of practice documents that describe how we operate as a team.</p>
         </div>
         <div>
         {% for page in site.pages %}
             {% if page.title %}
                 <section class="column column-4 card">
-                    <h2><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h2>
+                    <h4><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h4>
                     <p>{{ page.description }}</p>
                     <a class="page-link-small" href="{{ page.url | prepend: site.baseurl }}">Learn more</a>
                 </section>
@@ -21,15 +21,15 @@ layout: home
         </div>
     </section>
 
-    <section id="blog" class="row blog">
-        <div class="section-introduction">
-            <h4>Tech Blog</h4>
+    <section id="blog" class="blog">
+        <div class="wrapper section-introduction">
+            <h1>Tech Blog</h1>
             <p>Public tech blog from the developers, designers, and leadership at ATS.</p>
         </div>
-        <div class="wrapper">
+        <div class=" wrapper posts-list">
         {% for post in site.posts %}
             <section>
-                <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
                 <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 <p>{{ post.description }}</p>
                 <a class="page-link-small" href="{{ post.url | prepend: site.baseurl }}">Continue reading</a>

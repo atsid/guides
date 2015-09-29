@@ -18,11 +18,10 @@
 
 .site-title {
     color: white;
-    font-size: 0.65em;
+    font-size: $small-font-size - 1;
     font-weight: 300;
     line-height: 80px;
-    margin-bottom: 0;
-    margin-left: 120px;
+    margin: 0 0 0 110px;
     float: left;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -37,6 +36,7 @@
     }
 }
 
+
 .site-nav {
     float: right;
     line-height: 80px;
@@ -46,14 +46,22 @@
     }
 
     .page-link {
+        @include transition(all .3s ease);
         color: $text-color-light;
         line-height: $base-line-height;
         text-transform: uppercase;
         font-weight: 500;
-        font-size: .7em;
+        font-size: $small-font-size - 1;
+        padding: 8px 0;
+
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 25px;
+        }
+
+        &:hover {
+            text-decoration: none;
+            opacity: 0.75;
         }
     }
 
