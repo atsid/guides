@@ -16,27 +16,27 @@
 
     p {
         color: white;
-        font-size: $base-font-size + 17;
+        font-size: $base-font-size + 15;
         font-weight: 300;
         margin: 0;
-        padding: 4.5em 1em 4.5em 1.75em;
+        padding: 4.5em 1em;
         text-align: left;
     }
 
     img {
         max-width: 30em;
-        top: 4.75em
+        top: 2.2em
     }     
 
     @include respond-to('large') {
         p {
             @include transition(all .3s ease);
-            font-size: $base-font-size + 13;
-            padding-right: 0;
+            font-size: $base-font-size + 8;
+            padding-right: 2em;
         }
         img {
-            top: 4.2em;
-            max-width: 26em;
+            top: 2em;
+            max-width: 24em;
         }
     }
 
@@ -47,13 +47,13 @@
         }
 
         p {
-            font-size: $base-font-size + 12;
-            padding: 1.8em 0 0.5em;
+            font-size: $base-font-size + 5;
+            padding: 1.6em 0 0.5em;
             text-align: center;
         }
 
         img {
-            top: 1.6em;
+            top: 1.3em;
             max-width: 18em;
         }
     }
