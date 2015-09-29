@@ -6,6 +6,7 @@
 .introduction {
     $bg-image: '../assets/images/bg-pattern.png';
     @include background(url($bg-image) repeat center center scroll);    
+
     margin: 0;
     
     section {
@@ -29,6 +30,7 @@
 
     @include respond-to('large') {
         p {
+            @include transition(all .3s ease);
             font-size: $base-font-size + 13;
             padding-right: 0;
         }
@@ -45,7 +47,7 @@
         }
 
         p {
-            font-size: $base-font-size + 11;
+            font-size: $base-font-size + 12;
             padding: 1.8em 0 0.5em;
             text-align: center;
         }
@@ -57,7 +59,11 @@
     }
 }
 
-// Dev Guide
+
+// Dev Guides
+.guides {
+    margin-top: 4em;
+}
 .card {
     border-radius: 0.2em;
     border: $base-border; 
@@ -72,7 +78,7 @@
     margin-top: 5em;
 
     .posts-list {
-        max-width: 45em;
+        max-width: 50em;
         margin: 0 auto;
     }
 

@@ -63,6 +63,7 @@ li {
 a {
     color: $blue;
     text-decoration: none;
+    @include transition(.3s ease);
 
     &:hover, &:visited {
         color: $blue;
