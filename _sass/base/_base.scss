@@ -25,19 +25,6 @@ body {
 }
 
 /**
- * Basic styles for links
- */
-a {
-  color: $brand-color;
-  text-decoration: none;
-
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
-  }
-}
-
-/**
  * Images
  */
 img {
@@ -74,15 +61,11 @@ li {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $blue;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 10%);
-    }
-
-    &:hover {
-        color: $text-color;
+    &:hover, &:visited {
+        color: $blue;
         text-decoration: underline;
     }
 }

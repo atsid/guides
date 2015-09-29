@@ -41,22 +41,11 @@
  * Vertically center elements within a block
  */
  .center-vertically {
-    position: absolute;
+    position: relative;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-}
-
-/**
- * Horizontally center elements within a block. Useful for when text align won't cut it.
- */
- .center-horizontally {
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
 }
 
 /**
@@ -86,12 +75,12 @@
     padding-left: $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
+    // @include media-query($on-laptop) {
+    //     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    //     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    //     padding-right: $spacing-unit / 2;
+    //     padding-left: $spacing-unit / 2;
+    // }
 }
 
 /**

@@ -8,10 +8,12 @@
     {% include header.html %}
 
     <div class="page-content">
-      <section class="row introduction">
-        <p class="column column-12">We love creating great software, and we'd like to share how we do it and why.</p>
-        <!-- <img src="{{ site.baseurl }}/assets/images/computer.png" class="column column-4" alt="Computer"> -->
-      </section>
+      <div class="introduction">
+        <section class="wrapper row">
+          <p class="column column-6">We <strong>love</strong> creating great software, and we'd like to share how we do it and why.</p>
+          <img src="{{ site.baseurl }}/assets/images/computer.png" class="column column-6" alt="We have mad love for code">
+        </section>
+      </div>
       <div>
         {{ content }}
       </div>

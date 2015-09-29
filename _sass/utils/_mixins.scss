@@ -62,11 +62,9 @@
     }
 }
 
-//************************************************************************//
-// Background property for adding multiple backgrounds using shorthand
-// notation.
-//************************************************************************//
-
+// ---------------------------------------------------------------------------------
+// Background property for adding multiple backgrounds using shorthand notation.
+// ---------------------------------------------------------------------------------
 @mixin background($backgrounds...) {
   $webkit-backgrounds: ();
   $spec-backgrounds: ();
@@ -118,3 +116,13 @@
   background: $spec-backgrounds;
 }
 
+// ---------------------------------------------------------------------------------
+// Transitions Shorthand
+// --------------------------------------------------------------------------------
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
