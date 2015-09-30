@@ -33,7 +33,7 @@ section {
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: darken($light-gray,15);
 }
 
 .post-link {
