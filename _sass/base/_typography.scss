@@ -2,12 +2,11 @@
  * Basic typography style for copy text
  */
 body {
-    line-height: $base-line-height;
-    color: $text-color;
-    font-weight: 300;
     color: $text-color;
     font-size: $base-font-size;
+    font-weight: 200;
     font: normal 100% / 1.4 $base-font-family;
+    line-height: $base-line-height;
 }
 
 /**
@@ -17,7 +16,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2.5;
 }
 
 /**
@@ -25,6 +24,7 @@ ul, ol, dl, figure,
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
+    color: darken($text-color,30%);
 }
 
 /**
