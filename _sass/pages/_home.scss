@@ -63,13 +63,90 @@
 // Dev Guides
 .guides {
     margin-top: 4em;
+    
+    .card {
+        border-radius: 0.2em;
+        border: $base-border; 
+        min-height: 15em;
+        padding: 0;
+    }
+    
+    .excerpt {
+        display: block;
+        color: $text-color;
+        text-decoration: none;
+
+        &:hover {
+
+            > * {
+                @include transition(all .3s ease);
+            }
+
+            .caption {
+                opacity: 1;
+                transform: translateY(-90px);
+            }
+
+            .featured-image::after {
+                display: block;
+                content: '';
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0,0,0,0.5);
+            }
+        }
+    }
+
+    // Currently feature images rely on the page title for a unique class
+    // We may want to rethink how we do this in the future
+    .featured-image {
+        background-color: $dark-gray;
+        height: 166px;
+        text-align: center;
+
+        &.github {
+            background: #7B3D86 url('../assets/images/feature-img-github.png') no-repeat;
+            background-size: cover;
+        }
+
+        &.open-source {
+            background: #F6CA64 url('../assets/images/feature-img-opensource.png') no-repeat;
+            background-size: cover;
+        }
+
+        &.semver {
+            background: #D13F46 url('../assets/images/feature-img-semver.png') no-repeat;
+            background-size: cover;
+        }
+    }
+
+    .caption {
+        color: white;
+        display: block;
+        font-weight: 400;
+        opacity: 0;
+        position: absolute;
+        width: 90%;
+    }
+
+    svg:not(:root) {
+        position: absolute;
+        margin-left: 10px;
+    }
+
+    .copy {
+        padding: 2em;
+        text-align: left;
+         h3 {
+            font-weight: 600;
+            margin: 0;
+        }
+        p {
+            margin-top: 0.5em;
+        }
+    }
 }
-.card {
-    border-radius: 0.2em;
-    border: $base-border; 
-    min-height: 15em;
-    padding: 2em 1em;
-}
+
 
 // Tech Blog
 .blog {
@@ -92,4 +169,3 @@
         }
     }
 }
-
