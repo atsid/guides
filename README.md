@@ -1,3 +1,4 @@
+[![Dependency Status](https://david-dm.org/atsid/engineering.svg)](https://david-dm.org/atsid/engineering)
 [![Dev Dependency Status](https://david-dm.org/atsid/engineering/dev-status.svg)](https://david-dm.org/atsid/engineering)
 [![Build Status](https://travis-ci.org/atsid/engineering.svg?branch=master)](https://travis-ci.org/atsid/engineering)
 
