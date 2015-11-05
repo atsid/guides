@@ -8,7 +8,7 @@ install:
   - npm install -g gulp
   - npm install
 before_script:
-  - git remote set-url origin "https://${GH_TOKEN}@github.com/atsid/engineering.git"
+  - git remote set-url origin "https://${GH_TOKEN}@github.com/atsid/guides.git"
   - git config --global user.email "github@atsid.com"
   - git config --global user.name "Travis-CI"
 script:

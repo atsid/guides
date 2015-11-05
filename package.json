@@ -1,11 +1,11 @@
 {
-  "name": "engineering",
+  "name": "guides",
   "version": "0.0.2",
   "private": false,
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atsid/engineering.git"
+    "url": "https://github.com/atsid/guides.git"
   },
   "author": "ATS",
   "dependencies": {},
