@@ -18,16 +18,16 @@ When a new feature or bug needs to be worked on, we:
 
     > 1234-fixing-database-connection
 
-2. All **commits** toward the feature/bug are prefixed with the task id: `#{task-id} - {description of commit}`.
+2. All **commits** toward the feature/bug are prefixed with the task id: `(#{task-id}) - {description of commit}`.
     
-    > \#1234 - Fix connection pool settings
+    > \(#1234) - Fix connection pool settings
 
 3. When feature or bug is complete, submit a **pull request** back to master.
 
 4. Others review the pull request and provide feedback. When that feedback is addressed and you get 1-2 :shipit:, **merge** the branch into master.
 
 We use specific formats for our branch names and commit logs so that the tools can automatically organize into an activity stream for a task.
-You can also enclose the commit message issue number in parens to get around the use of '#' as comment prefix in some editors.
+We enclose the commit message issue number in parens to get around the use of leading '#' as a comment prefix in some editors.
 
 ## Commit Messages
 
