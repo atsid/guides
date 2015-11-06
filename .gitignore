@@ -6,3 +6,4 @@ dist
 _site
 .sass-cache
 .publish
+.jekyll-metadata
