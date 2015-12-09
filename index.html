@@ -8,32 +8,41 @@ layout: home
             <h1>Developer Guides</h1>
             <p>These guides are a community-developed set of practice documents that describe how we operate as a team.</p>
         </div>
-        <div>
-        {% for page in site.pages %}
-            {% if page.title %}
-                <section class="column column-4 card">
-                    <a class="excerpt" href="{{ page.url | prepend: site.baseurl }}">
-                        <div class="featured-image {{ page.title | slugify }}"></div>
-                        <span class="caption">Learn More <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     width="26.1px" height="26.1px" viewBox="27.6 90.6 26.1 26.1" style="enable-background:new 27.6 90.6 26.1 26.1;"
-     xml:space="preserve">
-<style type="text/css">
-    .st0{fill:#FFFFFF;stroke:#FFFFFF;}
-</style>
-<path class="st0" d="M42,103.7l-3-3.3c-0.3-0.3-0.3-0.7,0-0.9c0.3-0.3,0.7-0.3,0.9,0l3.7,3.7c0.3,0.3,0.3,0.7,0,0.9l-3.7,3.7
-    c-0.3,0.3-0.7,0.3-0.9,0c-0.3-0.3-0.3-0.7,0-0.9L42,103.7L42,103.7z M40.7,91.1c6.9,0,12.5,5.6,12.5,12.5c0,6.9-5.6,12.5-12.5,12.5
-    s-12.5-5.6-12.5-12.5C28.1,96.7,33.7,91.1,40.7,91.1L40.7,91.1z M40.7,114.6c6,0,10.9-4.9,10.9-10.9s-4.9-10.9-10.9-10.9
-    c-6,0-10.9,4.9-10.9,10.9C29.8,109.7,34.6,114.6,40.7,114.6z"/>
-</svg></span>
 
-                        <div class="copy">
-                            <h3>{{ page.title }}</h3>
-                            <p>{{ page.description }}</p>
-                        </div>
-                    </a>
-                </section>
+        <div>
+            <!-- track card indices so we create a new row every 3 columns -->
+            {% assign idx = 0 %}
+            <div class="row">
+
+            {% for page in site.pages %}
+                {% if page.title %}
+                    {% assign idx = idx | plus: 1 %}
+                    {% assign idxRow = idx | modulo: 3 %}
+                    <section class="column column-4 card">
+                        <a class="excerpt" href="{{ page.url | prepend: site.baseurl }}">
+                            <div class="featured-image {{ page.title | slugify }}"></div>
+                            <span class="caption">Learn More <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26.1px" height="26.1px" viewBox="27.6 90.6 26.1 26.1" style="enable-background:new 27.6 90.6 26.1 26.1;" xml:space="preserve">
+                                <style type="text/css">.st0{fill:#FFFFFF;stroke:#FFFFFF;}</style>
+                                <path class="st0" d="M42,103.7l-3-3.3c-0.3-0.3-0.3-0.7,0-0.9c0.3-0.3,0.7-0.3,0.9,0l3.7,3.7c0.3,0.3,0.3,0.7,0,0.9l-3.7,3.7
+                                    c-0.3,0.3-0.7,0.3-0.9,0c-0.3-0.3-0.3-0.7,0-0.9L42,103.7L42,103.7z M40.7,91.1c6.9,0,12.5,5.6,12.5,12.5c0,6.9-5.6,12.5-12.5,12.5
+                                    s-12.5-5.6-12.5-12.5C28.1,96.7,33.7,91.1,40.7,91.1L40.7,91.1z M40.7,114.6c6,0,10.9-4.9,10.9-10.9s-4.9-10.9-10.9-10.9
+                                    c-6,0-10.9,4.9-10.9,10.9C29.8,109.7,34.6,114.6,40.7,114.6z"/>
+                                    </svg>
+                            </span>
+
+                            <div class="copy">
+                                <h3>{{ page.title }}</h3>
+                                <p>{{ page.description }}</p>
+                            </div>
+                        </a>
+                    </section>
+                {% if idxRow == 0 %}
+            </div>
+            <div class="row">
+                {% endif %}
             {% endif %}
         {% endfor %}
+            </div>
         </div>
     </section>
 
