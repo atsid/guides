@@ -122,6 +122,11 @@
             background: #D13F46 url('../assets/images/feature-img-semver.png') no-repeat;
             background-size: cover;
         }
+
+        &.writing {
+            background: #BBB url('../assets/images/feature-img-generic.png') no-repeat;
+            background-size: cover;
+        }
     }
 
     .caption {
