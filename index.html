@@ -46,21 +46,4 @@ layout: home
         </div>
     </section>
 
-    <section id="blog" class="blog">
-        <div class="wrapper section-introduction">
-            <h1>Tech Blog</h1>
-            <p>Public tech blog from the developers, designers, and leadership at ATS.</p>
-        </div>
-        <div class=" wrapper posts-list">
-            {% for post in site.posts %}
-            <section>
-                <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <p>{{ post.description }}</p>
-                <!-- <a class="page-link-small" href="{{ post.url | prepend: site.baseurl }}">Continue reading</a> -->
-            </section>
-        {% endfor %}
-        </div>
-    </section>
-
 </div>
