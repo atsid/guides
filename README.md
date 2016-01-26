@@ -29,17 +29,6 @@ If you want to edit an existing page, simply work on it in your favorite editor.
 If you want to add a new guide page, add a new `*.md` file to the project root, and then insert the [yaml header material](http://jekyllrb.com/docs/frontmatter/).
 You can use one of the other pages as a template, but at a minimum you'll need the title, description, and permalink fields.
 
-### Blog Posts
-
-If you'd like to author a post for the tech blog, add a new file in the `_posts` folder named with the date and partial title. Fill in the appropriate metadata in the yaml header (again, you can use an existing post as a template), then submit a pull request to have the post reviewed by your teammates.
-
-You have two publication options for blog posts:
-
-1. You can create the post entirely within the post markdown file and submit it as is.
-1. You can publish the post on your own external blog platform and then create a summary post here that links to the full version.
- 
-It's really up to you how you want it posted, we just wanted to leave the option of linking to personal blogs so the content stays a part of your personal online content. As for subject matter, please limit the posts to content that is relevant to ATS and appropriate for a public site with our name on it. That doesn't mean it needs to be strictly technical though - posts on design, culture, learning, strategy, etc. are all encouraged!
-
 ### Other Development
 
 If you want to do deeper work on the site's structure or design, have a look at the [Jekyll docs](http://jekyllrb.com/docs/home/) to understand how the content is set up.
