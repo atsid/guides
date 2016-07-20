@@ -5,5 +5,5 @@ ruby:
     - names:
       - zlib1g-dev
       - build-essential
-      - ruby2.1
-      - ruby2.1-dev
+      - ruby2.2
+      - ruby2.2-dev
