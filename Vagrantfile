@@ -19,6 +19,9 @@ Vagrant.configure(2) do |config|
   # Forward server ports from guest to host
   config.vm.network "forwarded_port", guest: 4000, host: 4000
 
+  # Handy jekyll alias to include open host
+  config.vm.provision :shell, inline: 'echo "alias serve=\"jekyll serve --host 0.0.0.0\"" >> .bashrc'
+
   # Shared folders with NFS
   config.vm.network :private_network, type: "dhcp"
   config.vm.synced_folder '.', '/vagrant', nfs: true
