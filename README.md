@@ -38,7 +38,7 @@ We use Vagrant to streamline the installation of Jekyll so you can run the site 
 1. `vagrant up`
 1. `vagrant ssh`
 1. `cd /vagrant`
-1. Start jekyll: `jekyll serve`
+1. Start jekyll: `jekyll serve --host 0.0.0.0` or use the handy bash alias `serve`
 1. View the site on your host machine: http://localhost:4000/guides
 
 ### Deployment
@@ -50,4 +50,3 @@ Deployment uses a gulp task to push to `gh-pages`, where it can be viewed at htt
 1. `gulp deploy`
 
 Note again that this process happens automatically by Travis whenever commits are made to master.
-
