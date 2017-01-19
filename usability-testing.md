@@ -2,7 +2,7 @@
 layout: page
 title: Usability Testing
 description: "Getting user feedback"
-permalink: /Usability Testing/
+permalink: /usability-testing/
 ---
 
 ## Overview 

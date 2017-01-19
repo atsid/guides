@@ -2,7 +2,7 @@
 layout: page
 title: UX Tools
 description: "Tools our UX team uses "
-permalink: /UX Tools/
+permalink: /ux-tools/
 ---
 
 #### <i>Helpful articles, tutorials, and other cool things we've come across for UX tools.</i>

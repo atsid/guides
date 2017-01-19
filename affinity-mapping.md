@@ -2,7 +2,7 @@
 layout: page
 title: Affinity Mapping
 description: "Grouping large amounts of data"
-permalink: /Affinity Mapping/
+permalink: /affinity-mapping/
 ---
 
 ## Overview 

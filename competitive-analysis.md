@@ -2,7 +2,7 @@
 layout: page
 title: Competitive / Comparative Analysis
 description: "What is out there and how can we differentiate?"
-permalink: /Competitive Analysis/
+permalink: /competitive-analysis/
 ---
 ## Overview 
 

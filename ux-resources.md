@@ -2,7 +2,7 @@
 layout: page
 title: UX Sites and Resources
 description: "List of UX sites and resources we find interesting "
-permalink: /UX Tools/
+permalink: /ux-resources/
 ---
 
 ## Reference Sites

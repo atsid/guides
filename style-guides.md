@@ -2,7 +2,7 @@
 layout: page
 title: Style Guides
 description: "Determining the product's' visual style"
-permalink: /Style Guides/
+permalink: /style-guides/
 ---
 ## Overview 
 

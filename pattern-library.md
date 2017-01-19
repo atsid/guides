@@ -2,7 +2,7 @@
 layout: page
 title: Pattern Library
 description: "Team brainstorming"
-permalink: /Pattern Library/
+permalink: /pattern-library/
 ---
 
 ## Overview 

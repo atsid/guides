@@ -2,7 +2,7 @@
 layout: page
 title: Crazy Eights
 description: "Fast Paced Sketching Exercise"
-permalink: /Crazy 8s/
+permalink: /crazy-eights/
 ---
 
 ## Overview 

@@ -2,7 +2,7 @@
 layout: page
 title: User Personas
 description: "Determining User profiles"
-permalink: /User Personas/
+permalink: /user-personas/
 ---
 
 

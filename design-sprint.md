@@ -2,7 +2,7 @@
 layout: page
 title: Design Sprint
 description: "5-Day: Product Design Process"
-permalink: /Design Sprint/
+permalink: /design-sprint/
 ---
 
 ## Overview 

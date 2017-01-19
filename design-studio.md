@@ -2,7 +2,7 @@
 layout: page
 title: Design Studio or Sprint
 description: "Team brainstorming"
-permalink: /design studio/
+permalink: /design-studio/
 ---
 
 ## Overview 
