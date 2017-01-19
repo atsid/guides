@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Writing
-description: "Four basic premises of writing - clarity, brevity, simplicity, and humanity."
+description: Four basic premises of writing - clarity, brevity, simplicity, and humanity.
 permalink: /writing/
 ---
 
