@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Design Studio or Sprint
+title: Design Studio
 description: "Team brainstorming"
 permalink: /design studio/
 ---
