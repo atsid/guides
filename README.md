@@ -39,7 +39,7 @@ We use Vagrant to streamline the installation of Jekyll so you can run the site 
 1. `vagrant ssh`
 1. `cd /vagrant`
 1. Start jekyll: `jekyll serve`
-1. View the site on your host machine: http://localhost:4000/guides
+1. View the site on your host machine: http://localhost:4000/guides/
 
 ### Deployment
 
