@@ -29,7 +29,7 @@ When a new feature or bug needs to be worked on, we:
 We use specific formats for our branch names and commit logs so that the tools can automatically organize into an activity stream for a task.
 We enclose the commit message issue number in parens to get around the use of leading '#' as a comment prefix in some editors.
 
-## Commit Messages
+## Commit messages
 
 The commit log of a project is an important resource for yourself and future developers to use when trying to understand the history of an issue or feature.
 Using a consistent convention for commit messages makes it easier to understand the project, and easier for developers to pick up work on any project.
@@ -37,7 +37,7 @@ Using a consistent convention for commit messages makes it easier to understand 
 We really like [this guide](http://chris.beams.io/posts/git-commit/) for writing consistent, informative commit messages. The main difference we endorse is the issue number prefixing described above,
 which makes the GitHub site for the repo much more interactive via links.
 
-## Access Control
+## Access control
 
 By default, all members of the ATS org get `read` access to all repositories. This lets everyone see all of our code so we can learn from it, reuse it, and be aware of other project activity.
  

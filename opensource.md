@@ -7,11 +7,11 @@ permalink: /opensource/
 
 You can find our GitHub page at [github.com/atsid](https://github.com/atsid).
 
-We try to encourage releasing as much of our code as possible as open source projects. For more detail on our open source strategy, have a look at [this post](https://medium.com/@natoverse/an-open-source-strategy-for-ats-c5cca250ef48).
+We encourage releasing as much of our code as possible as open source projects. For more detail on our open source strategy, have a look at [this post](https://medium.com/@natoverse/an-open-source-strategy-for-ats-c5cca250ef48).
 
-## What Can Be Released?
+## What can be released?
 
-Nearly anything! We encourage our employees to always be thinking about code that could be beneficial to release as open source software.
+Nearly anything! We encourage our team members to always be thinking about code that could be beneficial to release as open source software.
 
 This makes it easier to reuse for other projects, and lets us give back to the community.
 
@@ -23,7 +23,7 @@ Guidelines for whether a project should be released include:
 
 If you aren't sure whether a project is a good candidate for open sourcing, feel free to ask for a review by other technical staff or ATS management.
 
-## Open Source Standards
+## Open source standards
 
 Our open source code should reflect our values as a development team, and should therefore be of high quality.
 
