@@ -16,15 +16,15 @@ Here is a list provided by [Field Studies by Susan Farrell](https://www.nngroup.
 
 ###Examples of field studies include:
 
-*Flexible user tests in the field, which combine usability testing with adaptive interviews. Interviewing people about their tasks and challenges gives you very rich information. In an adaptive interview, you refine the questions you ask as you learn.
+* Flexible user tests in the field, which combine usability testing with adaptive interviews. Interviewing people about their tasks and challenges gives you very rich information. In an adaptive interview, you refine the questions you ask as you learn.
 
-*Customer visits can help you better understand usability issues that arise in particular industry or business contexts or those that appear at a certain scale.
+* Customer visits can help you better understand usability issues that arise in particular industry or business contexts or those that appear at a certain scale.
 
-*Direct observation is useful for conducting design research into user processes, for instance to help create natural task flows for subsequent paper prototypes. Direct observation is also great for learning user vocabulary, understanding businesses’ interaction with customers, and discovering common workarounds — for example by listening in on support calls, watching people moving through amusement parks, or observing sales staff and customers in stores.
+* Direct observation is useful for conducting design research into user processes, for instance to help create natural task flows for subsequent paper prototypes. Direct observation is also great for learning user vocabulary, understanding businesses’ interaction with customers, and discovering common workarounds — for example by listening in on support calls, watching people moving through amusement parks, or observing sales staff and customers in stores.
 
-*Ethnographic research situates you in the users’ context as a member of the group. Group research allows you to gain insight into mental models and social situations that can help products and services fit into people’s lives. This type of research is particularly helpful when your target audience lives in a culture different from yours.
+* Ethnographic research situates you in the users’ context as a member of the group. Group research allows you to gain insight into mental models and social situations that can help products and services fit into people’s lives. This type of research is particularly helpful when your target audience lives in a culture different from yours.
 
-*Contextual inquiry is a method that structures and combines many of these field-study activities.
+* Contextual inquiry is a method that structures and combines many of these field-study activities.
 
 ##Advantages and Disadvantages
 
