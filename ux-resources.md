@@ -17,3 +17,8 @@ permalink: /ux-resources/
 * [Don’t Make Me Think, Revisited]( http://www.gv.com/sprint)
 * [Elements of User Experience,The: User-Centered Design for the Web and Beyond By Jesse James Garrett](https://books.google.com/books/about/Elements_of_User_Experience_The.html?id=9QC6r5OzCpUC&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false)
 * [Lean UX: Applying Lean Principles to Improve User Experience By Jeff Gothelf, Josh Seiden](https://books.google.com/books/about/Lean_UX.html?id=iZUXAwAAQBAJ&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false)
+
+## Posts
+Here are some specific posts we've found helpful in the past.
+
+* [The best, most creative newsletters by designers for designers](https://flipboard.com/@flipboard/flip.it%2F6-PElr-the-best-most-creative-newsletters-by-d/f-1ca1f4e097%2Fthenextweb.com)
