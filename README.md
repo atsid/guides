@@ -37,13 +37,11 @@ We use Jekyll to streamline the installation so you can run the site locally to 
 
 If you do not have Jekyll installed:
 
-1. Go to /guides directory
-1. `npm install jekyll`
+1. `brew install ruby`
 1. `sudo gem install jekyll`
 
 Once installed:
 
-1. Go to /guides directory
 1. Start jekyll: `jekyll serve`
 1. View the site on your host machine: http://localhost:4000/guides/
 
