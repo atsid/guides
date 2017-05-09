@@ -37,7 +37,7 @@ We use Jekyll to streamline the installation so you can run the site locally to 
 
 If you do not have Jekyll installed:
 
-1. `brew install ruby`
+1. You must first install Ruby using `brew install ruby`.  This will install it globally.
 1. `sudo gem install jekyll`
 
 Once installed:
