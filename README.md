@@ -33,11 +33,17 @@ You can use one of the other pages as a template, but at a minimum you'll need t
 
 If you want to do deeper work on the site's structure or design, have a look at the [Jekyll docs](http://jekyllrb.com/docs/home/) to understand how the content is set up.
 
-We use Vagrant to streamline the installation of Jekyll so you can run the site locally to make sure any changes will look ok when deployed.
+We use Jekyll to streamline the installation so you can run the site locally to make sure any changes will look ok when deployed.
 
-1. `vagrant up`
-1. `vagrant ssh`
-1. `cd /vagrant`
+If you do not have Jekyll installed:
+
+1. Go to /guides directory
+1. 'npm install jekyll'
+1. 'sudo gem install jekyll'
+
+Once installed:
+
+1. Go to /guides directory
 1. Start jekyll: `jekyll serve`
 1. View the site on your host machine: http://localhost:4000/guides/
 
