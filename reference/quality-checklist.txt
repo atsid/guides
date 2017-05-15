@@ -1,0 +1,102 @@
+1. Is there a Continuous Integration (CI) pipeline? NO
+ 
+	a. where is it hosted (url)?
+	
+	N/A
+
+	b. Is the pipeline described in the README?
+
+	N/A
+	
+	c. does it have at least test and production environments?
+
+	N/A
+
+	d. Is there a manual verification step before deploying to production?
+		
+	N/A
+
+	e. Is a production version of the code deployed to the production environment?
+
+	N/A
+
+
+2. Is there linting? NO
+ 
+	a. Is it run within the CI pipeline?
+	
+	N/A
+
+	b. Is there a note in the README on how to run it?
+	
+	N/A
+
+
+3. Are there Unit tests? NO
+ 
+	a. Where are they (directory)?
+	
+	N/A
+
+	b. Are they run within the CI pipeline?
+	
+	N/A
+
+	c. Is there a note in the README on how to run them?
+	
+	N/A
+
+
+4. Are there End-to-end Tests? NO
+ 
+	a. Where are they (directory)?
+	
+	N/A
+
+	b. Are they run within the CI pipeline?
+	
+	N/A
+
+	c. Is there a note in the README on how to run them?
+	
+	N/A
+
+
+5. Are there code coverage metrics? NO
+	
+	a. Where are they (directory)?
+	
+	N/A
+
+	b. Are they run within the CI pipeline?
+	
+	N/A
+
+	c. Are builds rejected if they don't meet a coverage threshold?
+
+	N/A
+
+	d. Is there a note in the README on how to run them?
+	
+	N/A
+
+
+6. Is there performance testing? NO
+	
+	a. Where are they (directory)?
+	
+	N/A
+
+	b. Are they run within the CI pipeline?
+	
+	N/A
+
+	c. Are builds rejected if they don't meet a performance threshold?
+	
+	N/A
+
+	d. Is there a note in the README on how to run them?
+	
+	N/A
+
+	
