@@ -1,0 +1,11 @@
+Sprint Planning Quality Checklist (in order of priority)
+
+1. Are there any security updates that need to be done this sprint?
+
+2. Are there any critical bugs that need to be addressed this sprint? 
+
+3. Have there been any major shifts in the project that may need re-factoring stories for this sprint?
+
+4. Are there project dependencies that need to be upgraded this sprint?
+
+5. Is there remaining work from the previous sprint that needs to be addressed this sprint or assigned to the backlog?
