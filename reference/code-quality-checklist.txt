@@ -41,8 +41,12 @@
 	b. Are they run within the CI pipeline?
 	
 	N/A
+	
+	c. Is there a way to skip tests but still see them in the report?
+	
+	N/A
 
-	c. Is there a note in the README on how to run them?
+	d. Is there a note in the README on how to run them?
 	
 	N/A
 
@@ -56,8 +60,12 @@
 	b. Are they run within the CI pipeline?
 	
 	N/A
-
-	c. Is there a note in the README on how to run them?
+    
+    c. Is there a way to skip tests but still see them in the report?
+    
+    N/A
+	
+	d. Is there a note in the README on how to run them?
 	
 	N/A
 
