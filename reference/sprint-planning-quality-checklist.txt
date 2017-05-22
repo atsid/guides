@@ -1,6 +1,6 @@
 Sprint Planning Quality Checklist (in order of priority)
 
-1. Are there any quality metrics that need to change based on the previous sprint(s)
+1. Are there any quality metrics that need to change based on the previous sprint(s)?
 
 2. Are there any security updates that need to be done this sprint?
 
